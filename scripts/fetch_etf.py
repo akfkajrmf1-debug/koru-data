@@ -20,10 +20,14 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
 
 TICKERS = [
-    ("KORU", "KORU_ETF"),   # 원본 3x 한국 — 레벨용
-    ("EWY",  "EWY_ETF"),    # 1x 한국 — 감쇠 없는 추세 판정용
+    ("KORU", "KORU_ETF"),
+    ("EWY",  "EWY_ETF"),
     ("SOXL", "SOXL_ETF"),
-    ("SOXX", "SOXX_ETF"),   # 1x 반도체
+    ("SOXX", "SOXX_ETF"),
+    ("QQQ",  "QQQ_ETF"),
+    ("TQQQ", "TQQQ_ETF"),
+    ("SMH",  "SMH_ETF"),
+    ("NVDA", "NVDA_ETF"),
 ]
 
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
