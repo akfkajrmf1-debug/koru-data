@@ -12,6 +12,9 @@ INTERVALS = {"5": ("min5","5m"), "15": ("min15","15m"), "60": ("hour1","1h"),
 LIMIT = 500
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
+# 인터벌별 보관 상한 (행 수). 5분 60000 = 약 208일치.
+CAP = {"5": 60000, "15": 40000, "60": 20000, "240": 10000, "D": 5000}
+
 def get(url, tries=3):
     last = None
     for i in range(tries):
@@ -64,6 +67,42 @@ def from_gate(sym, iv):
         raise RuntimeError("Gate 빈 응답")
     return out, "Gate.io"
 
+# ---------------------------------------------------------------- 이어붙이기
+def merge(path, new_rows, cap):
+    """기존 CSV와 신규 응답을 time 기준으로 합친다.
+    같은 time이면 신규가 이긴다 — 직전 저장 때 미완성이던 봉이 확정본으로 갱신된다.
+    기존 파일이 없거나 깨져 있으면 신규만 저장한다.
+    """
+    old = {}
+    if os.path.exists(path):
+        try:
+            with open(path, newline="") as f:
+                for r in csv.DictReader(f):
+                    t = r.get("time")
+                    if t and str(t).strip().isdigit():
+                        old[int(t)] = r
+        except Exception as e:
+            print(f"  기존 파일 무시 {os.path.basename(path)}: {e}", file=sys.stderr)
+            old = {}
+
+    before = len(old)
+    for r in new_rows:
+        old[int(r["time"])] = r
+
+    rows = [old[k] for k in sorted(old)]
+    if cap and len(rows) > cap:
+        rows = rows[-cap:]
+
+    cols = list(new_rows[0].keys())
+    tmp = path + ".tmp"
+    with open(tmp, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+        w.writeheader()
+        for r in rows:
+            w.writerow({c: r.get(c, "") for c in cols})
+    os.replace(tmp, path)          # 원자적 교체 — 중간에 죽어도 원본 안 깨짐
+    return len(rows), len(rows) - before
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     manifest = {"updated_kst": datetime.now(KST).strftime("%Y-%m-%d %H:%M:%S"), "files": []}
@@ -78,13 +117,16 @@ def main():
                     print(f"  {fn.__name__} 실패 {name}: {e}", file=sys.stderr)
             if not rows:
                 print(f"FAIL {name}", file=sys.stderr); continue
-            with open(os.path.join(OUT, name), "w", newline="") as f:
-                w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
-                w.writeheader(); w.writerows(rows)
+
+            total, added = merge(os.path.join(OUT, name), rows, CAP.get(iv))
+
+            with open(os.path.join(OUT, name), newline="") as f:
+                allrows = list(csv.DictReader(f))
             manifest["files"].append({"file": name, "symbol": sym, "interval": iv,
-                "source": src, "bars": len(rows), "first": rows[0]["datetime_kst"],
-                "last": rows[-1]["datetime_kst"]})
-            print(f"OK {name:20s} {len(rows):4d}봉  {src:8s} {rows[0]['datetime_kst']} ~ {rows[-1]['datetime_kst']}")
+                "source": src, "bars": total, "added": added,
+                "first": allrows[0]["datetime_kst"], "last": allrows[-1]["datetime_kst"]})
+            print(f"OK {name:20s} {total:6d}봉 (+{added:3d})  {src:8s} "
+                  f"{allrows[0]['datetime_kst']} ~ {allrows[-1]['datetime_kst']}")
             time.sleep(0.4)
     with open(os.path.join(OUT, "manifest.json"), "w") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
