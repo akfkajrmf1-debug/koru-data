@@ -1,0 +1,61 @@
+{
+  "updated_kst": "2026-08-10 15:46:22",
+  "files": [
+    {
+      "file": "KORU_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "KORU_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "EWY_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "EWY_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SOXL_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SOXL_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SOXX_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SOXX_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    }
+  ]
+}
