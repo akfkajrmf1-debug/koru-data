@@ -1,5 +1,5 @@
 {
-  "updated_kst": "2026-08-10 15:46:22",
+  "updated_kst": "2026-08-10 16:05:18",
   "files": [
     {
       "file": "KORU_ETF_D.csv",
@@ -52,6 +52,62 @@
     },
     {
       "file": "SOXX_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "QQQ_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "QQQ_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "TQQQ_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "TQQQ_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SMH_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "SMH_ETF_W.csv",
+      "source": "Yahoo/query1",
+      "bars": 522,
+      "first": "2016-08-12 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "NVDA_ETF_D.csv",
+      "source": "Yahoo/query1",
+      "bars": 2514,
+      "first": "2016-08-08 00:00:00",
+      "last": "2026-08-07 00:00:00"
+    },
+    {
+      "file": "NVDA_ETF_W.csv",
       "source": "Yahoo/query1",
       "bars": 522,
       "first": "2016-08-12 00:00:00",
