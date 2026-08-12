@@ -1,15 +1,26 @@
 {
+<<<<<<< Updated upstream
   "updated_kst": "2026-08-12 21:34:23",
+=======
+  "updated_kst": "2026-08-12 21:38:04",
+>>>>>>> Stashed changes
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
+<<<<<<< Updated upstream
       "bars": 1164,
       "added": 4,
       "first": "2026-08-08 20:35:00",
       "last": "2026-08-12 21:30:00"
+=======
+      "bars": 1165,
+      "added": 5,
+      "first": "2026-08-08 20:35:00",
+      "last": "2026-08-12 21:35:00"
+>>>>>>> Stashed changes
     },
     {
       "file": "KORUUSDT_15.csv",
@@ -56,10 +67,17 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
+<<<<<<< Updated upstream
       "bars": 1165,
       "added": 5,
       "first": "2026-08-08 20:35:00",
       "last": "2026-08-12 21:35:00"
+=======
+      "bars": 1166,
+      "added": 6,
+      "first": "2026-08-08 20:35:00",
+      "last": "2026-08-12 21:40:00"
+>>>>>>> Stashed changes
     },
     {
       "file": "SOXLUSDT_15.csv",
