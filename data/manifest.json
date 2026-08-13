@@ -1,105 +1,105 @@
 {
-  "updated_kst": "2026-08-13 08:00:44",
+  "updated_kst": "2026-08-13 14:19:55",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 1290,
-      "added": 8,
+      "bars": 1366,
+      "added": 76,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:20:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 764,
-      "added": 3,
+      "bars": 789,
+      "added": 25,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:15:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 522,
-      "added": 1,
+      "bars": 528,
+      "added": 6,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
       "symbol": "KORUUSDT",
       "interval": "240",
       "source": "Gate.io",
-      "bars": 131,
-      "added": 0,
+      "bars": 133,
+      "added": 2,
       "first": "2026-07-22 13:00:00",
-      "last": "2026-08-13 05:00:00"
+      "last": "2026-08-13 13:00:00"
     },
     {
       "file": "KORUUSDT_D.csv",
       "symbol": "KORUUSDT",
       "interval": "D",
       "source": "Gate.io",
-      "bars": 22,
-      "added": 0,
+      "bars": 23,
+      "added": 1,
       "first": "2026-07-22 09:00:00",
-      "last": "2026-08-12 09:00:00"
+      "last": "2026-08-13 09:00:00"
     },
     {
       "file": "SOXLUSDT_5.csv",
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 1290,
-      "added": 7,
+      "bars": 1366,
+      "added": 76,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:20:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 764,
-      "added": 3,
+      "bars": 789,
+      "added": 25,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:15:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 566,
-      "added": 1,
+      "bars": 572,
+      "added": 6,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-08-13 08:00:00"
+      "last": "2026-08-13 14:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
       "symbol": "SOXLUSDT",
       "interval": "240",
       "source": "Gate.io",
-      "bars": 516,
-      "added": 0,
+      "bars": 518,
+      "added": 2,
       "first": "2026-05-19 09:00:00",
-      "last": "2026-08-13 05:00:00"
+      "last": "2026-08-13 13:00:00"
     },
     {
       "file": "SOXLUSDT_D.csv",
       "symbol": "SOXLUSDT",
       "interval": "D",
       "source": "Gate.io",
-      "bars": 91,
-      "added": 0,
+      "bars": 92,
+      "added": 1,
       "first": "2026-05-14 09:00:00",
-      "last": "2026-08-12 09:00:00"
+      "last": "2026-08-13 09:00:00"
     }
   ]
 }
