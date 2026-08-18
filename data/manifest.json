@@ -1,45 +1,45 @@
 {
-  "updated_kst": "2026-08-18 12:11:48",
+  "updated_kst": "2026-08-18 14:04:05",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 2780,
-      "added": 39,
+      "bars": 2802,
+      "added": 22,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-18 12:10:00"
+      "last": "2026-08-18 14:00:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 1260,
-      "added": 13,
+      "bars": 1268,
+      "added": 8,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-18 12:00:00"
+      "last": "2026-08-18 14:00:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 646,
-      "added": 4,
+      "bars": 648,
+      "added": 2,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-08-18 12:00:00"
+      "last": "2026-08-18 14:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
       "symbol": "KORUUSDT",
       "interval": "240",
       "source": "Gate.io",
-      "bars": 162,
+      "bars": 163,
       "added": 1,
       "first": "2026-07-22 13:00:00",
-      "last": "2026-08-18 09:00:00"
+      "last": "2026-08-18 13:00:00"
     },
     {
       "file": "KORUUSDT_D.csv",
@@ -47,7 +47,7 @@
       "interval": "D",
       "source": "Gate.io",
       "bars": 28,
-      "added": 1,
+      "added": 0,
       "first": "2026-07-22 09:00:00",
       "last": "2026-08-18 09:00:00"
     },
@@ -56,40 +56,40 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 2780,
-      "added": 39,
+      "bars": 2803,
+      "added": 23,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-18 12:10:00"
+      "last": "2026-08-18 14:05:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 1260,
-      "added": 12,
+      "bars": 1268,
+      "added": 8,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-18 12:00:00"
+      "last": "2026-08-18 14:00:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 690,
-      "added": 3,
+      "bars": 692,
+      "added": 2,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-08-18 12:00:00"
+      "last": "2026-08-18 14:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
       "symbol": "SOXLUSDT",
       "interval": "240",
       "source": "Gate.io",
-      "bars": 547,
-      "added": 0,
+      "bars": 548,
+      "added": 1,
       "first": "2026-05-19 09:00:00",
-      "last": "2026-08-18 09:00:00"
+      "last": "2026-08-18 13:00:00"
     },
     {
       "file": "SOXLUSDT_D.csv",
