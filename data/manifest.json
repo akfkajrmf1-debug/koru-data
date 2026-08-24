@@ -1,35 +1,35 @@
 {
-  "updated_kst": "2026-08-24 19:23:51",
+  "updated_kst": "2026-08-24 20:55:55",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 4594,
-      "added": 23,
+      "bars": 4613,
+      "added": 19,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-24 19:20:00"
+      "last": "2026-08-24 20:55:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 1865,
-      "added": 8,
+      "bars": 1871,
+      "added": 6,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-24 19:15:00"
+      "last": "2026-08-24 20:45:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 797,
-      "added": 2,
+      "bars": 798,
+      "added": 1,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-08-24 19:00:00"
+      "last": "2026-08-24 20:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
@@ -56,30 +56,30 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 4595,
-      "added": 24,
+      "bars": 4613,
+      "added": 18,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-24 19:25:00"
+      "last": "2026-08-24 20:55:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 1865,
-      "added": 8,
+      "bars": 1871,
+      "added": 6,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-24 19:15:00"
+      "last": "2026-08-24 20:45:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 841,
-      "added": 2,
+      "bars": 842,
+      "added": 1,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-08-24 19:00:00"
+      "last": "2026-08-24 20:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
