@@ -1,35 +1,35 @@
 {
-  "updated_kst": "2026-08-30 03:44:22",
+  "updated_kst": "2026-08-30 04:04:26",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 6134,
-      "added": 3,
+      "bars": 6138,
+      "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-30 03:40:00"
+      "last": "2026-08-30 04:00:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2379,
-      "added": 2,
+      "bars": 2380,
+      "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-30 03:45:00"
+      "last": "2026-08-30 04:00:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 925,
-      "added": 0,
+      "bars": 926,
+      "added": 1,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-08-30 03:00:00"
+      "last": "2026-08-30 04:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
@@ -56,30 +56,30 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 6135,
+      "bars": 6139,
       "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-08-30 03:45:00"
+      "last": "2026-08-30 04:05:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2379,
-      "added": 2,
+      "bars": 2380,
+      "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-08-30 03:45:00"
+      "last": "2026-08-30 04:00:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 969,
-      "added": 0,
+      "bars": 970,
+      "added": 1,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-08-30 03:00:00"
+      "last": "2026-08-30 04:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
