@@ -1,35 +1,35 @@
 {
-  "updated_kst": "2026-09-01 17:48:41",
+  "updated_kst": "2026-09-01 18:08:29",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 6879,
-      "added": 3,
+      "bars": 6883,
+      "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-09-01 17:45:00"
+      "last": "2026-09-01 18:05:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2627,
+      "bars": 2628,
       "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-09-01 17:45:00"
+      "last": "2026-09-01 18:00:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 987,
-      "added": 0,
+      "bars": 988,
+      "added": 1,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-09-01 17:00:00"
+      "last": "2026-09-01 18:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
@@ -56,30 +56,30 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 6880,
+      "bars": 6884,
       "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-09-01 17:50:00"
+      "last": "2026-09-01 18:10:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2627,
+      "bars": 2628,
       "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-09-01 17:45:00"
+      "last": "2026-09-01 18:00:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 1031,
-      "added": 0,
+      "bars": 1032,
+      "added": 1,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-09-01 17:00:00"
+      "last": "2026-09-01 18:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
