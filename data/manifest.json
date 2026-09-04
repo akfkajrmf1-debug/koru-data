@@ -1,35 +1,35 @@
 {
-  "updated_kst": "2026-09-04 17:48:38",
+  "updated_kst": "2026-09-04 18:08:36",
   "files": [
     {
       "file": "KORUUSDT_5.csv",
       "symbol": "KORUUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 7743,
-      "added": 3,
+      "bars": 7747,
+      "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-09-04 17:45:00"
+      "last": "2026-09-04 18:05:00"
     },
     {
       "file": "KORUUSDT_15.csv",
       "symbol": "KORUUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2915,
+      "bars": 2916,
       "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-09-04 17:45:00"
+      "last": "2026-09-04 18:00:00"
     },
     {
       "file": "KORUUSDT_60.csv",
       "symbol": "KORUUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 1059,
-      "added": 0,
+      "bars": 1060,
+      "added": 1,
       "first": "2026-07-22 15:00:00",
-      "last": "2026-09-04 17:00:00"
+      "last": "2026-09-04 18:00:00"
     },
     {
       "file": "KORUUSDT_240.csv",
@@ -56,30 +56,30 @@
       "symbol": "SOXLUSDT",
       "interval": "5",
       "source": "Gate.io",
-      "bars": 7744,
+      "bars": 7748,
       "added": 4,
       "first": "2026-08-08 20:35:00",
-      "last": "2026-09-04 17:50:00"
+      "last": "2026-09-04 18:10:00"
     },
     {
       "file": "SOXLUSDT_15.csv",
       "symbol": "SOXLUSDT",
       "interval": "15",
       "source": "Gate.io",
-      "bars": 2915,
+      "bars": 2916,
       "added": 1,
       "first": "2026-08-05 09:15:00",
-      "last": "2026-09-04 17:45:00"
+      "last": "2026-09-04 18:00:00"
     },
     {
       "file": "SOXLUSDT_60.csv",
       "symbol": "SOXLUSDT",
       "interval": "60",
       "source": "Gate.io",
-      "bars": 1103,
-      "added": 0,
+      "bars": 1104,
+      "added": 1,
       "first": "2026-07-20 19:00:00",
-      "last": "2026-09-04 17:00:00"
+      "last": "2026-09-04 18:00:00"
     },
     {
       "file": "SOXLUSDT_240.csv",
